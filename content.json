@@ -1,0 +1,270 @@
+{
+  "exoApe": {
+    "title": "Exo Ape",
+    "hero": {
+      "image": "/slide-img-1.jpg"
+    },
+    "overview": {
+      "title": "Project Overview",
+      "description": "Exo Ape aims to blend design, technology, and storytelling into digital experiences that leave a lasting impact. The company challenged me to design and develop a microsite that would celebrate their 10-year journey in a way that felt personal, immersive, and true to their creative identity. The objective was not just to showcase past projects — people knew their work, but not their story. The goal was to let visitors feel who they are, not just what they’ve made.",
+      "services": ["Concept Design", "User Research & Testing", "UI & UX Design", "Visual Design", "Web Development"],
+      "date": "February – July, 2025",
+      "client": "Exo Ape",
+      "image": "/projects/details/overview.jpg"
+    },
+    "initialConcept": {
+      "title": "Initial concepts",
+      "paragraphs": [
+        "During the early stages of the project, I explored multiple design directions that helped shape the final outcome. The goal was to craft an experience that feels immersive and emotionally aligned with Exo Ape’s values.",
+        "Each concept was grounded in research insights — gathered through user interviews, expert input, brand exploration, testing, and workshops with the product owners."
+      ],
+      "image": "/projects/details/initial.png"
+    },
+    "media": [
+      { "type": "video", "src": "/projects/details/first-video.mov" },
+      { "type": "image", "src": "/projects/details/firstChaper.jpg" },
+      { "type": "image", "src": "/projects/details/chapter1.png" },
+      { "type": "video", "src": "/projects/details/showreel.mov" },
+      { "type": "image", "src": "/projects/details/celebrate.jpg" },
+      { "type": "image", "src": "/projects/details/story2.jpg", "style": { "backgroundColor": "#242424" } },
+      { "type": "image", "src": "/projects/details/frames.png" }
+    ],
+    "statement": {
+      "svg": "/clientWords.svg",
+      "scriptText": "Exo Ape.",
+      "clientWords": "“You really outdid yourself. Your work went above our expectations. At the beginning, I had some doubts about whether the project could be managed all the way to a strong final result — but you proved me wrong. It’s truly impressive that you handled the research, design, and development yourself. Just knowing how to code doesn’t mean you have an eye for design, and being a good designer doesn’t always mean you can build it. But you did everything yourself and you should be proud.”"
+    }
+  },
+  "lioris": {
+    "title": "Lioris",
+    "hero": {
+      "image": "/slide-img-2.jpg"
+    },
+    "overview": {
+      "title": "Project Overview",
+      "description": "Lioris was imagined as a creative studio that me and my friend wanted to build together. The name itself reflects the values we wanted the studio to stand for. It combines two words: Leo — the lion, symbolizing our mindsets of never hesitating, never backing down, always moving forward to overcome obstacles, courage, and fearlessness and Iris representing seeing the world differently, vision, imagination, and creativity. Together, Lioris represents fearless creativity.",
+      "services": ["Concept Development", "Brand Identity", "UI & UX Design", "Storytelling", "Web Development"],
+      "date": "September 2025",
+      "client": "Lioris",
+      "image": "/projects/details/lioris1.png"
+    },
+    "initialConcept": {
+      "title": "Initial concepts",
+      "paragraphs": [
+        "The story of Lioris begins with a single head that breaks into two. It is not one voice, but two creative minds — each with its own vision, its own way of seeing the world. The break is not division, but a symbol of duality.",
+        "When the head breaks open, the lion is born — holding courage in its heart and determination in its eyes. It shows that breaking is not about falling apart, but about transformation: the chance to grow and evolve. The lion appears when we open up, uncovering the potential we hide."
+      ],
+      "image": "/projects/details/liorisInitial.png"
+    },
+    "media": [
+      { "type": "video", "src": "/projects/details/lioris2.mov" },
+      { "type": "image", "src": "/projects/details/lioris3.png" },
+      { "type": "image", "src": "/projects/details/lioris4.png" },
+      { "type": "video", "src": "/projects/details/lioris4.mov" },
+      { "type": "image", "src": "/projects/details/lioris5.jpg" }
+    ],
+    "statement": {
+      "svg": "/lioris.svg",
+      "scriptText": "One bold vision.",
+      "clientWords": ""
+    }
+  },
+  "portfolio": {
+    "title": "Portofolio",
+    "hero": {
+      "image": "/slide-img-5.jpg"
+    },
+    "overview": {
+      "title": "Project Overview",
+      "description": "This portfolio was created as part of my search for a graduation internship. My goal was to present myself who am I as a designer and my desire to learn how to create work that makes people stop, wonder just like I do, to create cool things and gain experience. I focused on showing both my design style and my technical skills. As a result, this portfolio successfully helped me get a graduation internship at Exo Ape, an Awwwards-winning digital design studio, where I continued to grow my passion for creating engaging and memorable digital experiences",
+      "services": ["Concept Development", "3D & Motion", "UI & UX Design", "Visual Design", "Web Development"],
+      "date": "November – Jan, 2024",
+      "client": "Denisa Zaharia",
+      "image": "/projects/details/portfolio1.png"
+    },
+    "initialConcept": {
+      "title": "Initial concepts",
+      "paragraphs": [
+        "The idea for my portfolio started with the image of flowers and a butterfly. Just like flowers bloom, I wanted to show that I can grow, learn, and keep unfolding my potential as a designer.",
+        "As you scroll, a butterfly moves with you across the page, symbolizing how I also needed a mentor to guide me. The butterfly represented the drive to always explore new ideas, transformation, evolving, and the ability to create without limits."
+      ],
+      "image": "/projects/details/portfolio2.png"
+    },
+    "media": [
+      { "type": "video", "src": "/projects/details/portfolio3.mov" },
+      { "type": "image", "src": "/projects/details/portfolio4.png" },
+      { "type": "image", "src": "/projects/details/portfolio6.png" },
+      { "type": "video", "src": "/projects/details/portfolio4.mov" }
+    ],
+    "statement": {
+      "svg": "/clientWords.svg",
+      "scriptText": "Denisa & Exo Ape.",
+      "clientWords": "For me, the butterfly and flowers carried a very personal meaning, and I was happy that I could bring this vision to life all by myself. After my interview, Exo Ape shared that the butterfly really stood out to them and stayed in their memory. They were also impressed that I managed to design and build everything on my own, something they usually split across different team members."
+    }
+  },
+  "suspended": {
+    "title": "Suspended",
+    "hero": {
+      "image": "/slide-img-7.jpg"
+    },
+    "overview": {
+      "title": "Project Overview",
+      "description": "This project was built around the idea that each photo is more than just an image — it’s a moment suspended in time. The spiral represents continuity and how moments never disappear, but instead fold into each other, shaping who I am. It also shows how time leaves a mark on us, turning moments, feelings, and growth into one long journey.",
+      "services": ["Concept Development", "Storytelling", "Creative Development", "Web Design", "Motion"],
+      "date": "September – Oct, 2024",
+      "client": "Minor Digital Experience",
+      "image": "/projects/details/suspended1.png"
+    },
+    "initialConcept": {
+      "title": "Initial concepts",
+      "paragraphs": [
+        "The idea for this project started with the thought that photos are not just images, but pieces of time. I wanted to show how every picture I take while traveling holds more than a place — it holds a feeling, a story, and memories that stay with you long after the journey ends.",
+        "The spiral shows how time never stops, but keeps moving, looping, and carrying moments with it."
+      ],
+      "image": "/projects/details/suspended2.png"
+    },
+    "media": [
+      { "type": "video", "src": "/projects/details/suspended3.mov" },
+      { "type": "image", "src": "/projects/details/suspended4.png" },
+      { "type": "image", "src": "/projects/details/suspended5.png" },
+      { "type": "video", "src": "/projects/details/suspended4.mov" }
+    ],
+    "statement": {
+      "svg": "/clientWords.svg",
+      "scriptText": "Maike - Mentor",
+      "clientWords": "Compliments on your journey this semester. You were absorbing all the knowlegde and were willing to develop your design skills in every possible way. Good that you did not let technology limit you in letting your vision come alive. It was great working with you. Try to be more confident in your capabilities and standing for your work, you are doing great!!"
+    }
+  },
+  "samenAanZ": {
+    "title": "Samen aan Z",
+    "hero": {
+      "image": "/slide-img-3.jpg"
+    },
+    "overview": {
+      "title": "Project Overview",
+      "description": "This project explored how to visualize healthcare workers’ welfare feedback in a more engaging and efficient way, replacing time-consuming surveys. The concept centered around the “heart of the hospital.” Each answer given by a healthcare worker added a person to the heartbeat line, symbolizing their presence and voice within the system.",
+      "services": ["Concept Development", "3D Animation Design", "Storytelling", "User Research & Testing", "Web Development"],
+      "date": "February – July, 2024",
+      "client": "Samen aan Z",
+      "image": "/projects/details/samen2.png"
+    },
+    "initialConcept": {
+      "title": "Initial concepts",
+      "paragraphs": [
+        "The concept grew from the belief that healthcare workers are the heart of the hospital. Just as a heart keeps the body alive, their energy and care keep the hospital beating every day. The heartbeat line made of people shows that behind every beat there is not just data, but a voice, a person, a story.",
+        "When feedback revealed issues the people got stuck inside the heart, showing areas where attention were needed. A way to make sure healthcare workers’ voices were not only heard, but seen and felt."
+      ],
+      "image": "/projects/details/samen1.png"
+    },
+    "media": [
+      { "type": "video", "src": "/projects/details/samen3.mp4" },
+      { "type": "image", "src": "/projects/details/samen5.png" },
+      { "type": "image", "src": "/projects/details/samen6.png" },
+      { "type": "video", "src": "/projects/details/samen4.mp4" }
+    ],
+    "statement": {
+      "svg": "/clientWords.svg",
+      "scriptText": "Samen aan Z",
+      "clientWords": "This project turned our feedback into something we could actually see and feel. The heart concept made it clear that every worker’s voice matters. It gave us a new, more human way to understand the well-being of our staff."
+    }
+  },
+  "candyBoss": {
+    "title": "Candy Boss",
+    "hero": {
+      "image": "/slide-img-6.jpg"
+    },
+    "overview": {
+      "title": "Project Overview",
+      "description": "For this project, I designed and developed a candy-themed e-commerce website on Shopify. The client wanted a mix of a “Godfather” theme combined with a bunny mascot. Since they didn’t have a brand, I was responsible for creating the visual identity, from logo and colors to the overall look and feel, alongside building the website itself.",
+      "services": ["Concept Development", "User Research & Testing", "UI & UX Design", "Visual Identity", "Web Development"],
+      "date": "September – Feb, 2023",
+      "client": "Srg International",
+      "image": "/projects/details/candy.jpg"
+    },
+    "initialConcept": {
+      "title": "Initial concepts",
+      "paragraphs": [
+        "To connect the brand identity with the Godfather theme, I dressed the bunny in a black suit, bow tie, and sunglasses — turning it into the “Candy Boss”. This gave the brand a personality that was fun and instantly recognizable.",
+        "In mafia stories, the suitcase usually holds something powerful or secret — but here, it’s filled with candies."
+      ],
+      "image": "/projects/details/candy3.png"
+    },
+    "media": [
+      { "type": "video", "src": "/projects/details/srg1.mov" },
+      { "type": "image", "src": "/projects/details/candy3.jpg" },
+      { "type": "image", "src": "/projects/details/candy4.png" },
+      { "type": "image", "src": "/projects/details/slide-img-6.jpg" }
+    ],
+    "statement": {
+      "svg": "/clientWords.svg",
+      "scriptText": "Srg International",
+      "clientWords": "Denisa picks things up quickly, is flexible, and remains focused on her tasks. Quality of work is high quality! Hereby Denisa lies very well in the group, takes her work seriously and works purposefully. Denisa is absolutely determined in her tasks and makes and delivers very good quality."
+    }
+  },
+  "srg": {
+    "title": "SRG",
+    "hero": {
+      "image": "/slide-img-4.jpg"
+    },
+    "overview": {
+      "title": "Project Overview",
+      "description": "At SRG International, I worked in Product Development & Marketing by creating a wide range of design materials for global partners such as Mondelez, Prime, Reese’s, Mars, XXL Nutrition etc. and trade fairs such as ISM, Sial, Trade of Leaders etc. while also contributing to product catalogs and private label designs.",
+      "services": ["Product Development", "Trade Fair Visuals", "Marketing", "Digital & Print Design", "Presentation Design"],
+      "date": "April – January, 2025",
+      "client": "Srg International",
+      "image": "/projects/details/srg1.png"
+    },
+    "initialConcept": {
+      "title": "My work",
+      "paragraphs": [
+        "This role gave me the chance to work on projects that reached an international audience, where I learned how design supports not only marketing, but also long-term business relationships with premium partners. Being part of a company with over 40 years of FMCG expertise helped me understand how marketing and design work together",
+        "Beyond client-facing materials, I redesigned the company’s product and private label catalog, and contributed to the redesign of their Easter private label products."
+      ],
+      "image": "/projects/details/srg2.png"
+    },
+    "media": [
+      { "type": "video", "src": "/projects/details/srg1.mov" },
+      { "type": "image", "src": "/projects/details/srg6.png" },
+      { "type": "image", "src": "/projects/details/srg5.png" },
+      { "type": "image", "src": "/projects/details/srg9.png" }
+    ],
+    "statement": {
+      "svg": "/clientWords.svg",
+      "scriptText": "Srg International",
+      "clientWords": "You really outdid yourself. Your work went above our expectations. At the beginning, I had some doubts about whether the project could be managed all the way to a strong final result — but you proved me wrong. It’s truly impressive that you handled the research, design, and development yourself. Just knowing how to code doesn’t mean you have an eye for design, and being a good designer doesn’t always mean you can build it. But you did everything yourself and you should be proud."
+    }
+  },
+  "fontys": {
+    "title": "Fontys",
+    "hero": {
+      "image": "/slide-img-8.jpg"
+    },
+    "overview": {
+      "title": "Project Overview",
+      "description": "Exo Ape aims to blend design, technology, and storytelling into digital experiences that leave a lasting impact. The company challenged me to design and develop a microsite that would celebrate their 10-year journey in a way that felt personal, immersive, and true to their creative identity. The objective was not just to showcase past projects — people knew their work, but not their story. The goal was to let visitors feel who they are, not just what they’ve made.",
+      "services": ["Concept Development", "User Research & Testing", "UI & UX Design", "Visual Design", "Web Development"],
+      "date": "February – July, 2025",
+      "client": "Exo Ape",
+      "image": "/projects/details/fontys.JPG"
+    },
+    "initialConcept": {
+      "title": "Initial concepts",
+      "paragraphs": [
+        "During the early stages of the project, I explored multiple design directions that helped shape the final outcome. The goal was to craft an experience that feels immersive and emotionally aligned with Exo Ape’s values.",
+        "Each concept was grounded in research insights — gathered through user interviews, expert input, brand exploration, testing, and workshops with the product owners."
+      ],
+      "image": "/projects/details/fontys2.png"
+    },
+    "media": [
+      { "type": "video", "src": "/projects/details/fontys3.mov" },
+      { "type": "image", "src": "/projects/details/fontys4.PNG" },
+      { "type": "image", "src": "/projects/details/fontys7.png" },
+      { "type": "video", "src": "/projects/details/fontys6.mp4" }
+    ],
+    "statement": {
+      "svg": "/clientWords.svg",
+      "scriptText": "Fontys Mentor - Stan",
+      "clientWords": "You really outdid yourself. Your work went above our expectations. At the beginning, I had some doubts about whether the project could be managed all the way to a strong final result — but you proved me wrong. It’s truly impressive that you handled the research, design, and development yourself. Just knowing how to code doesn’t mean you have an eye for design, and being a good designer doesn’t always mean you can build it. But you did everything yourself and you should be proud."
+    }
+  }
+}

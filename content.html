@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title id="pageTitle">Project</title>
+    <link rel="stylesheet" href="content.css" />
+  </head>
+  <body>
+    <nav>
+      <ul class="c-nav">
+        <li class="c-nav__item">
+          <a href="index.html" class="c-nav__link">Home</a>
+        </li>
+
+        <li class="c-nav__item">
+          <a href="projects.html" class="c-nav__link">Projects</a>
+        </li>
+
+        <li class="c-nav__item">
+          <a href="/index.html#section-5" class="c-nav__link">About</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero" id="section-1">
+      <div class="slide-img">
+        <img id="heroImg" alt="" />
+      </div>
+      <div class="slide-header">
+        <div class="slide-title">
+          <h1 id="heroTitle"></h1>
+        </div>
+      </div>
+    </section>
+
+    <!-- Overview -->
+    <section class="overview" id="section-2">
+      <div class="container">
+        <div class="grid">
+          <div class="col col-1">
+            <p class="col1-title" id="overviewTitle">Project Overview</p>
+            <p class="overview-description" id="overviewDesc"></p>
+          </div>
+
+          <div class="col col-2">
+            <p class="col2-title">Services</p>
+            <ul class="list" id="servicesList"></ul>
+          </div>
+
+          <div class="col col-3">
+            <div class="row">
+              <p class="col3-first-title">Date</p>
+              <p id="dateText"></p>
+            </div>
+            <div class="row">
+              <p class="col3-second-title">Client</p>
+              <p id="clientText"></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="image-wrap">
+          <img id="overviewImg" src="" alt="Project preview" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Initial Concept -->
+    <section class="initial-concept" id="section-3">
+      <div class="container">
+        <div class="col col-1">
+          <p id="initialTitle"></p>
+          <p id="initialP1"></p>
+          <br />
+          <p id="initialP2"></p>
+        </div>
+        <div class="col col-2">
+          <img id="initialImg" src="" alt="Initial concept image" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Media blocks (video/image) -->
+    <section class="showreel" id="section-4">
+      <div class="video-wrap" muted playsinline preload="metadata">
+        <video class="showreel-video" autoplay muted loop playsinline id="video1">
+          <source id="video1Src" src="" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </section>
+
+    <section class="firstChapter" id="section-5">
+      <div class="image-wrap2">
+        <img id="chapterImg1" src="" alt="Project preview" />
+      </div>
+    </section>
+
+    <section class="firstChapter" id="section-6">
+      <div class="image-wrap2">
+        <img id="chapterImg2" src="" alt="Project preview" />
+      </div>
+    </section>
+
+    <section class="showreel" id="section-7">
+      <div class="video-wrap" muted playsinline preload="metadata">
+        <video class="showreel-video" autoplay muted loop playsinline id="video2">
+          <source id="video2Src" src="" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </section>
+
+    <section class="hero" id="section-8">
+      <div class="slide-img">
+        <img id="heroImg2" src="" alt="" />
+      </div>
+    </section>
+
+    <!-- Optional extra media (used by Exo Ape only; safe to leave empty for Lioris) -->
+    <section class="showreel" id="section-9">
+      <img id="storyImg" src="" alt="" />
+    </section>
+
+    <section class="hero" id="section-10">
+      <div class="slide-img">
+        <img id="framesImg" src="" alt="" />
+      </div>
+    </section>
+
+    <!-- Statement -->
+
+    <section class="statement" id="section-11">
+      <div class="vector-wrap">
+        <!-- SVG goes here -->
+        <div id="statementSvg"></div>
+
+        <!-- dynamic text -->
+        <p class="script-text" id="scriptText"></p>
+        <p class="clientWords" id="clientWords"></p>
+      </div>
+    </section>
+
+    <script type="module" src="./lenis-scroll.js"></script>
+    <script type="module" src="./content.js"></script>
+  </body>
+</html>

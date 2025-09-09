@@ -1,0 +1,398 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --scale: calc(100vw / 1440);
+}
+
+@font-face {
+  font-family: "Solare";
+  src: url("/fonts/Solare-RegularIntense.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SolareIt";
+  src: url("/fonts/SolareItalic-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PPNeueMontreal";
+  src: url("/fonts/PPNeueMontreal-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BonVivant";
+  src: url("/fonts/BonVivant-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+nav {
+  position: fixed;
+  top: 5%;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.c-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.c-nav__link {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "PPNeueMontreal", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+}
+
+/* Dynamic nav color based on background under nav */
+nav.nav--light .c-nav__link {
+  color: #fdfaf6;
+}
+nav.nav--dark .c-nav__link {
+  color: #242424;
+}
+
+/* Hover/focus color for nav links */
+nav .c-nav__link:hover,
+nav .c-nav__link:focus-visible {
+  color: #f9c0bc;
+}
+
+section {
+  width: 100vw;
+  padding: 2% 6%;
+  position: relative;
+}
+
+.list {
+  list-style: none;
+}
+
+#section-1,
+#section-8,
+#section-10 {
+  position: relative;
+  width: 100vw;
+  height: 100svh;
+  background-color: #000;
+  overflow: hidden;
+}
+
+.slide,
+.slide-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100svh;
+}
+
+.slide {
+  will-change: transform;
+}
+
+.slide-header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  z-index: 1;
+}
+
+h1 {
+  font-style: italic;
+  font-weight: 450;
+  letter-spacing: -0.02em;
+  font-size: 11.25vw;
+  filter: blur(0.2px);
+  text-transform: uppercase;
+  color: #e4e0db;
+  font-family: "SolareIt";
+}
+
+.slide-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  column-gap: 24px;
+  row-gap: 160px; /* extra space before the image row */
+  margin-top: 60px;
+}
+
+.grid {
+  display: contents;
+}
+
+.overview .col-1 {
+  grid-column: 1/6;
+  grid-row: 1;
+}
+
+.col-1 p:first-child {
+  line-height: 2.5;
+}
+
+.overview .col-2 {
+  grid-column: 9/11;
+  grid-row: 1;
+}
+
+.overview .col-2 p:first-child {
+  line-height: 2.5;
+}
+
+.overview .col-3 {
+  grid-column: 11/13;
+  grid-row: 1;
+}
+.overview .col-3 p:first-child {
+  line-height: 2.5;
+}
+
+.image-wrap {
+  grid-column: 1 / -1;
+  grid-row: 2;
+  justify-self: center;
+  position: relative;
+  overflow: hidden;
+  width: calc(1000 * var(--scale));
+  height: calc(500 * var(--scale));
+  aspect-ratio: 1000 / 787;
+}
+
+.image-wrap img {
+  position: absolute;
+  left: 0;
+  top: -10%;
+  width: 100%;
+  /* height: 120%; */
+  object-fit: cover;
+  will-change: transform;
+}
+
+.col1-title,
+.col2-title,
+.col3-first-title,
+.col3-second-title {
+  font-size: calc(14 * var(--scale));
+  font-family: "Solare";
+  font-style: normal;
+  font-weight: 450;
+  letter-spacing: -0.02em;
+}
+.overview-description {
+  font-size: calc(24 * var(--scale));
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+}
+
+.list li {
+  font-size: calc(18 * var(--scale));
+  line-height: 24px;
+}
+
+.col-3 .row p:nth-of-type(2) {
+  font-size: calc(18 * var(--scale));
+}
+
+#section-3,
+#section-2 {
+  background-color: #fdfaf6;
+}
+
+#section-3 {
+  padding-bottom: 160px;
+  padding-top: 130px;
+}
+
+.initial-concept .col-1 {
+  grid-column: 1/4;
+  grid-row: 1;
+  align-self: center;
+  margin-top: 250px;
+}
+
+.initial-concept .col-2 {
+  grid-column: 4/13;
+  grid-row: 1;
+}
+
+.initial-concept img {
+  width: calc(953 * var(--scale));
+  height: calc(618 * var(--scale));
+}
+
+#section-3 .col-1 p:first-child {
+  font-size: calc(14 * var(--scale));
+  font-family: "Solare";
+  font-style: normal;
+  font-weight: 450;
+  letter-spacing: -0.02em;
+  line-height: 2.5;
+}
+
+#section-3 .col p {
+  font-size: calc(18 * var(--scale));
+}
+
+#section-4,
+#section-7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 13%;
+  background-color: #242424;
+  overflow: hidden; /* clip video scale inside section */
+  position: relative;
+}
+
+.video-wrap {
+  position: relative;
+  overflow: hidden; /* ensure child scale doesn't bleed */
+}
+
+.video-wrap video {
+  width: calc(1092 * var(--scale));
+  height: calc(602 * var(--scale));
+  object-fit: cover;
+  display: block; /* remove inline gaps that can affect measurements */
+}
+
+#samen video {
+  width: calc(1040 * var(--scale));
+  height: calc(602 * var(--scale));
+  object-fit: cover;
+}
+
+.srg img {
+  width: calc(902 * var(--scale));
+}
+
+#section-5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 180px;
+  position: relative;
+  background-color: #fdfaf6;
+}
+
+.image-wrap2 {
+  position: relative;
+  overflow: hidden; /* contain parallax so it doesn't bleed into previous sections */
+  width: calc(870 * var(--scale));
+}
+
+.image-wrap2 img {
+  width: calc(870 * var(--scale));
+  object-fit: contain;
+}
+
+#section-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-bottom: 180px;
+  background-color: #fdfaf6;
+}
+
+.image-wrap2 img {
+  width: calc(870 * var(--scale));
+  object-fit: contain;
+}
+
+#section-9 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15%;
+  padding-bottom: 15%;
+  background-color: #fdfaf6;
+}
+
+#section-9 img {
+  width: 56%;
+}
+
+#section-11 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  background-color: #fdfaf6;
+}
+
+.vector-wrap {
+  position: relative;
+  width: 80%;
+  max-width: 844px;
+  display: flex;
+  justify-content: center;
+}
+
+.vector-wrap svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.vector-wrap .script-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  font-family: "BonVivant", cursive;
+  font-size: calc(100 * var(--scale));
+  color: #000;
+  white-space: nowrap;
+}
+.clientWords {
+  position: absolute;
+  text-align: start;
+  top: 96%;
+  left: 66%;
+  font-size: calc(13 * var(--scale));
+}
+
+/* reserve space to avoid layout jump (tweak as you need) */
+.slide-img img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
